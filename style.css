@@ -1,0 +1,296 @@
+.topnav{
+  position: sticky;
+background-color: aquamarine;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-right: 15px;
+padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: xx-large; 
+  font-style: italic;
+  text-align: center;
+}
+
+.dev{
+  float: right;
+  width: 60%;
+  height: 30%;
+}
+.main{
+  text-align: center;
+  padding-top: 10%;
+
+}
+.mono{
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  top:20%;
+  padding-top: 10%;
+}
+.h1{
+  font-size: xx-large;
+  font-weight: 200;
+
+}
+.btn{
+  background: lightseagreen;
+  text-decoration-color: aliceblue;
+  width:30% ;
+  left:10%;
+  top: 25%;
+}
+.topnav2{
+  
+  background:lightseagreen;
+  box-shadow: 3px 3px 5px lightgray;
+
+}
+
+
+.mt2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size:25px;
+ align-self:center;
+ align-content: center;
+ padding: auto;
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 24px;
+ max-height: fit-content;
+ color: blue;
+ margin-bottom: 5%;
+}
+.mt3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blueviolet;
+  padding-right: 8px;
+  padding-left:8px ;
+  padding-top: 10%;
+  margin-top: 5%;
+
+}
+.slider {
+  position: relative;
+  width:60%;
+  overflow: hidden;
+ 
+
+  
+}
+.images {
+  display: flex;
+  width: 100%;
+}
+.images img {
+  height: 400px;
+  width: 500px;
+  transition: all 0.15s ease;
+}
+.images input {
+  display: none;
+}
+.dots{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid black 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+.dots label:hover {background:cornflowerblue;}
+#img1:checked ~ .m1 {
+  margin-left: 0;
+  margin-right: 0;
+}
+#img2:checked ~ .m2 {
+  margin-left: -100%;
+  margin-right: -100%;
+}
+#img3:checked ~ .m3 {
+  margin-left:-200%;
+  margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+  margin-left:  -300%;
+  margin-right: -300%;
+}
+
+.mth1
+{
+height:400px;
+width: 800px;}
+
+.mth2
+{
+height: 400px;
+width: 800px;
+}
+.mth3
+{
+height: 400px;
+width: 800px;
+}
+.mth4
+{
+height: 400px;
+width: 800px;
+}
+
+.moni{
+  background:#d890ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn3{
+  
+  font-size: 1.12rem;
+  font-weight: 800;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  justify-content: space-between;
+  background-color: blue;
+  color: beige;
+cursor: pointer;
+}
+.btn4{
+  
+  font-size: 1.12rem;
+  font-weight: 800;
+  margin-left: 5%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: blue;
+  color: beige;
+  cursor: pointer;
+
+
+}
+
+.container{
+
+  text-align:center;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    paleturquoise 0%,
+    paleturquoise 50%,
+    lightcyan 50%,
+    lightcyan 100%
+  );
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+.m3{
+  font-style: italic;
+  text-emphasis-color:white;
+  text-size-adjust: 100px;
+  text-shadow: 10px;
+
+
+}
+.collage
+{
+  width:auto;
+  margin: auto;
+  text-align: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:30px;
+  grid-template-rows: (2,1fr);
+  grid-gap:30px;
+  padding: auto;
+}
+
+.mt19{
+  max-width: 700px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+
+}
+.mt15{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #07141d;
+  box-sizing: border-box;
+}
+.list{
+  margin: 100px auto;
+  width: 600px;
+
+}
+.list li{
+  list-style: none;
+  width: 100%;
+
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+.list li label{
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+color:#200000 ;
+}
+.list li label span{
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: #333;
+}
+.list label + input[type="radio"]{
+  display: none;
+}
+.list .container3{
+  padding: 0 10px;
+  line-height: 26px;
+  max-height:0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.list label + input[type="radio"]:checked+ .container3
+
+
+{
+  max-height:400px ;
+}
+.footer1{
+  background: #333;
+  color: aliceblue;
+
+}
+.design{
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: bolder;
+  
+}
